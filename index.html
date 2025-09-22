@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="meimei">
+      <h1>MeiMei University Student Registration!</h1>
+      <h3>Your future starts… eventually.</h3>
+      <img src="images/me.gif" alt="duck" />
+
+      <div class="content-wrapper">
+        <form id="studentForm">
+          <label for="name">Name: <input type="text" id="name" /></label>
+          <label for="age">Age: <input type="number" id="age" /></label>
+          <label for="phone"
+            >Phone Number: <input type="tel" id="phone"
+          /></label>
+          <label for="email">Email: <input type="email" id="email" /></label>
+          <label for="classes"
+            >Classes *commas separated please!:
+            <input type="text" id="classes" />
+          </label>
+          <label for="photo"
+            >ID Photo: <input type="file" id="photo" accept="image/*"
+          /></label>
+          <button type="submit" id="submitBtn">Submit</button>
+        </form>
+
+        <div class="student-section">
+          <h2>MeiMei University Student Roster</h2>
+          <div id="studentList"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
