@@ -70,7 +70,7 @@ function displayStudents() {
   let allStudents = JSON.parse(localStorage.getItem("students")) || [];
 
   if (allStudents.length === 0) {
-    $("#studentList").html("<p>No students registered yet.</p>");
+    $("#studentList").html("<p>No students go here ig... 👀</p>");
     return;
   }
 

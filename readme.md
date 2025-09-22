@@ -11,5 +11,5 @@ Students can enter their info and an optional ID photo, and the roster is displa
 
 ## Links
 
-- **Web 4:**
-- **GitHub Repo:**
+- **Web 4:** https://in-info-web4.luddy.indianapolis.iu.edu/~megpalmq/423-homework3/
+- **GitHub Repo:** https://github.com/megpalmq/423-homework3
